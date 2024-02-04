@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travels blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Book">Book</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+   </header>
+   <div class="login-form-container">
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn" >
+        <input type="checkbox" class="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>   
+</div>
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthywhile</h3>
+        <p>discover new place with us,adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="image/video1.mp4"></span>
+        <span class="vid-btn" data-src="image/video2.mp4"></span>
+        <span class="vid-btn" data-src="image/video3.mp4"></span>
+        <span class="vid-btn" data-src="image/video4.mp4"></span>
+        <span class="vid-btn" data-src="image/video5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="image/video1.mp4" id="video-container" loop autoplay muted></video>
+    </div>
+</section>
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>O</span>
+        <span>W</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="image/While-the-past-year-was-about-revenge-and-revival-_1673351689949.webp" alt="">
+        </div>
+        <form action="">
+            <h3>Where to</h3>
+            <input type="text" placeholder="place name">
+        </form>
+        <form action="">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests">
+        </form>
+        <form action="">
+            <h3>arrivals</h3>
+            <input type="date">
+        </form>
+        <form action="">
+            <h3>leaving</h3>
+            <input type="date">
+        </form>
+    </div>
+</section>
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>A</span>
+        <span>C</span>
+        <span>K</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/paris.jpg">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">Paries</i></h3>
+                <p>Paris is not just a city; it's a cultural hub with a rich history, stunning architecture, and a vibrant arts scene. It attracts millions of tourists each year who come to experience its unique charm and timeless beauty.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/tajmahal.jpg">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">Tajmahal</i></h3>
+                <p>Sunrise and sunset are popular times to witness the changing colors of the monument.  Taj Mahal is not only a cultural and architectural marvel but also a testament to the enduring power of love and beauty.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/image1.jpgs">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">Tajmahal</i></h3>
+                <p>Sunrise and sunset are popular times to witness the changing colors of the monument.  Taj Mahal is not only a cultural and architectural marvel but also a testament to the enduring power of love and beauty.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/nature.jpg">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt">Nature View Spot</i></h3>
+                <p>Sunrise and sunset are popular times to witness the changing colors of the monument.  Taj Mahal is not only a cultural and architectural marvel but also a testament to the enduring power of love and beauty.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>foods and drinks</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safrty guide</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>arround the world</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventure</h3>
+            <p>Hotel services is very kind full to you and your family</p>
+        </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/petronas-towers.jpg">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>petronas-towers is beautiful place</p>
+                <a href="#" class="btn"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/image3.jpg">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>petronas-towers is beautiful place</p>
+                <a href="#" class="btn"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/image.jpg">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>petronas-towers is beautiful place</p>
+                <a href="#" class="btn"></a>
+            </div>
+            <div class="box">
+            <img src="image/prymid.webp">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>petronas-towers is beautiful place</p>
+                <a href="#" class="btn"></a>
+            </div>
+            </div>
+            <div class="box">
+            <img src="image/GreatWallOfChina.jpg">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>petronas-towers is beautiful place</p>
+                <a href="#" class="btn"></a>
+            </div>
+            </div>
+            <div class="box">
+                <img src="image/ChristTheRedeemer.jpg">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>petronas-towers is beautiful place</p>
+                    <a href="#" class="btn"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/Temple-of-Artemis-at-Ephesus.jpg">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>petronas-towers is beautiful place</p>
+                    <a href="#" class="btn"></a>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
